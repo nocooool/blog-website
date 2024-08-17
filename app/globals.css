@@ -2,3 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+.scrollbar-hide::-webkit-scrollbar{
+    display: none;
+}
+
+.scrollbar-hide{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.blog-content{
+    padding: 36px 0;
+}
+.blog-content b{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.blog-content p{
+    margin-bottom: 10px;
+}
+.blog-content h1{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 26;
+}
+.blog-content h1{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 22;
+}
+.blog-content h1{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18;
+}
